@@ -45,7 +45,7 @@ ZooArcadia est une application de gestion de zoo permettant de suivre les inform
 1. Créez une base de données MySQL pour l'application.
 2. Importez les tables depuis le fichier `database.sql` dans votre base de données MySQL :
     ```sql
-    SOURCE /path/to/database.sql;
+    SOURCE arcadia.sql;
     ```
 
 ### Configuration de l'application
@@ -81,9 +81,9 @@ ZooArcadia est une application de gestion de zoo permettant de suivre les inform
 
 ## Contribuer
 1. Fork le projet.
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/nom-fonctionnalité`).
-3. Commitez vos modifications (`git commit -m 'Ajout de la fonctionnalité'`).
-4. Poussez la branche (`git push origin feature/nom-fonctionnalité`).
+2. Créez une branche pour votre fonctionnalité .
+3. Commitez vos modifications .
+4. Poussez la branche .
 5. Ouvrez une Pull Request.
 
 ## Licence
